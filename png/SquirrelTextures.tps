@@ -177,6 +177,7 @@
             <filename>sq_u.png</filename>
             <filename>sq_ul.png</filename>
             <filename>sq_ur.png</filename>
+            <filename>sq_giggle.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

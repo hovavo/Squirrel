@@ -1,7 +1,7 @@
 /* ----------------------------------------------------
    created with http://www.codeandweb.com/texturepacker 
    ----------------------------------------------------
-   $TexturePacker:SmartUpdate:f813416eaa1f178b18d93fd785418651:ef02a9ed96337c54cc6b4436234217c9:db4702caf2029946dca1c4822af0970d$
+   $TexturePacker:SmartUpdate:46e2bc34aa9f647977e4639bbafd78c9:82b7556fe647bf1054d109c585ee22d4:db4702caf2029946dca1c4822af0970d$
    ----------------------------------------------------
 
    usage: <span class="{-spritename-} sprite"></span>
@@ -12,11 +12,12 @@
 
 .sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(textures.png);}
 
-.nut {width:87px; height:124px; background-position: -856px -664px}
-.sq_c {width:425px; height:329px; background-position: -1283px -333px}
-.sq_d {width:425px; height:329px; background-position: -856px -333px}
-.sq_dl {width:425px; height:329px; background-position: -1283px -2px}
-.sq_dr {width:425px; height:329px; background-position: -856px -2px}
+.nut {width:87px; height:124px; background-position: -1283px -664px}
+.sq_c {width:425px; height:329px; background-position: -856px -664px}
+.sq_d {width:425px; height:329px; background-position: -1283px -333px}
+.sq_dl {width:425px; height:329px; background-position: -856px -333px}
+.sq_dr {width:425px; height:329px; background-position: -1283px -2px}
+.sq_giggle {width:425px; height:329px; background-position: -856px -2px}
 .sq_l {width:425px; height:329px; background-position: -429px -664px}
 .sq_nut {width:425px; height:329px; background-position: -429px -333px}
 .sq_r {width:425px; height:329px; background-position: -429px -2px}

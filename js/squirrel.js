@@ -14,9 +14,11 @@ function init()
 {
     // hash elements:
     squirrel = $("#squirrel");
+    belly = $("#belly");
     nut = $("#nut");
     missSound = $("#miss_sound")[0];
     catchSound = $("#catch_sound")[0];
+    giggleSound = $("#giggle_sound")[0];
     
     // Timeout:
     interval = 700;
@@ -85,6 +87,8 @@ function onTouch(e)
     var touch = e.touches ? e.touches[0] : e;
     if(touch.target == nut[0]){
         onCatch();
+    } else if(touch.target == belly[0]) {
+        onTickle();
     } else {
         onMiss();
         // Squirrle texture (look at nut):
@@ -113,6 +117,14 @@ function onCatch()
     
     // Time to resume:
     nutTimeout = setTimeout(startResume, 2500);
+}
+
+
+function onTickle()
+{
+    hideNut();
+    setSquirrelTexture("giggle");
+    giggleSound.play();
 }
 
 

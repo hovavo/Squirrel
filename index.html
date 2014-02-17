@@ -20,6 +20,14 @@
             margin-top: -115px;
         }
         
+        #belly {
+            width: 80px;
+            height: 110px;
+            margin-left: 166px;
+            margin-top: 180px;
+            background-color: rgba(0, 0, 0, 0);
+        }
+        
         #nut {
             position: absolute;
             -webkit-transform: scale(0);
@@ -35,11 +43,14 @@
 <body>
 
     <div id="canvas">
-        <div id="squirrel" class="sprite sq_c"></div>
+        <div id="squirrel" class="sprite sq_c">
+            <div id="belly"></div>
+        </div>
         <div id="nut" class="sprite nut"></div>
     </div>
     <audio src="sound/humpf.mp3" id="miss_sound" preload="auto"></audio>
     <audio src="sound/yay.mp3" id="catch_sound" preload="auto"></audio>
+    <audio src="sound/giggle.mp3" id="giggle_sound" preload="auto"></audio>
     
 </body>
 </html>
